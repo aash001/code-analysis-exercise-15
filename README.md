@@ -21,14 +21,14 @@ Inputs and outputs should be valid JavaScript values!
 
 | Input | Output |
 | ----- | ------ |
-|       |        | 
-|       |        | 
-|       |        | 
+|{dogs:[{name:"Rover"}]},"Rover"|{name:"Rover"}| 
+|{dogs:[{name:"Shiloh"}]},"Shiloh"|undefined| 
+|{dogs:[{name:"Star"}]},"Star"|{name:"Star"}| 
 
 <table>
   <tr>
     <th>What does this program do?</th>
-    <td></td>
+    <td>The program evaluates an array of objects and compares whether a person has a dog with a name match. Once a name is matched, the name of the dog returns.</td>
   </tr>
 </table>
 
